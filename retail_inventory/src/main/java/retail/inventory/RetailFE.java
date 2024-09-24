@@ -5,7 +5,6 @@ import java.io.PrintWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 
-
 public class RetailFE {
     public static void main (String[] args) throws Exception {
 
@@ -30,7 +29,9 @@ public class RetailFE {
                 PrintWriter fileWriter = new PrintWriter(new FileOutputStream(cFileDirectory));
                 fileWriter.close();
             }
-            //
+            /* We want to add, remove, update, and report inventory. We can alert out of stock
+            * and overfill, and give metrics based on the data. I.e. on update, report significant loss
+            */
         
             
         }

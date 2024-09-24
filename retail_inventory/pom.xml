@@ -6,7 +6,7 @@
 
   <groupId>retail.inventory</groupId>
   <artifactId>retail_inventory</artifactId>
-  <version>alpha-01</version>
+  <version>alpha-1.0</version>
 
   <name>retail_inventory</name>
   <!-- FIXME change it to the project's website -->
@@ -14,8 +14,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.17</maven.compiler.source>
+    <maven.compiler.target>1.17</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -28,7 +28,7 @@
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20210307</version>
+      <version>20231013</version>
     </dependency>
   </dependencies>
 
